@@ -1,0 +1,195 @@
+.aboutHomeDiv {
+  display: flex;
+  justify-content: center;
+}
+.aboutDiv {
+  max-width: 60rem;
+  text-align: start;
+  padding: 1rem;
+}
+
+.opaqBG {
+  background-color: dimgray;
+  background-blend-mode: lighten;
+  opacity: 0.85;
+  padding: 0.5rem;
+}
+
+p,
+li {
+  line-height: 30px;
+}
+
+h3 {
+  color: wheat;
+}
+
+.rightAlignedList {
+  list-style-position: inside;
+  direction: rtl;
+}
+
+.myEmail {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.myEmail:hover {
+  color: wheat;
+  text-decoration: underline;
+}
+
+/* .profilePicImg {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid wheat;
+} */
+
+.pictureDiv {
+  width: auto;
+  align-self: center;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.emailPicDiv {
+  padding-left: 7rem;
+}
+
+.emailPicDiv:hover {
+  opacity: 0.8;
+}
+
+.image-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 200px;
+  height: 200px;
+}
+/* .image-grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid white;
+  object-fit: contain;
+  overflow: hidden;
+  width: 90%;
+  height: 90%;
+} */
+
+.contentDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.contentTextDiv {
+  margin-left: 5rem;
+  border-left: mediumslateblue solid;
+  padding-left: 3rem;
+  width: 70%;
+}
+
+.coreCompText {
+  margin-right: 5rem;
+  border-right: mediumslateblue solid;
+  padding-right: 3rem;
+  text-align: right;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+  width: 70%;
+}
+
+.edu-image-container {
+  display: grid;
+  width: 200px;
+  height: 220px;
+}
+
+table {
+  width: 100%;
+}
+
+table tr {
+  height: 2rem;
+}
+
+table td:first-child {
+  width: 200px;
+  border-right: mediumslateblue solid;
+  text-align: right;
+  padding-right: 3rem;
+}
+
+table td:last-child {
+  width: 70%;
+  padding-left: 3rem;
+}
+
+@media screen and (max-width: 800px) {
+  .contentDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .contentTextDiv {
+    margin: 0%;
+    /* margin-left: 0%; */
+    border-top: mediumslateblue solid;
+    border-left: none;
+    padding: 1rem;
+    text-align: justify;
+    align-self: center;
+    width: 95%;
+  }
+
+  .reverseContent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .edu-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+  }
+  .eduImgMobile {
+    max-width: none;
+    align-self: center;
+  }
+
+  .coreCompText {
+    margin: 0%;
+    border-right: none;
+    border-top: mediumslateblue solid;
+    text-align: center;
+    padding: 1rem;
+    width: 95%;
+    align-self: center;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  .emailPicDiv {
+    padding-left: 0rem;
+  }
+
+  .centerText {
+    text-align: center;
+  }
+
+  table td:first-child {
+    width: 50%;
+    border-right: mediumslateblue solid;
+    text-align: right;
+    padding-right: 0.5rem;
+  }
+  
+  table td:last-child {
+    width: 50%;
+    padding-left: 0.5rem;
+  }
+}
