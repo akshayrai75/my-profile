@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-profile/static/css/main.a50331fc.css",
+    "main.js": "/my-profile/static/js/main.963978b7.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-profile/static/js/787.128fc6e9.chunk.js",
+    "static/media/CoverImg.jpg": "/my-profile/static/media/CoverImg.023101c8b75404e6e14e.jpg",
+    "static/media/ProfilePic.jpg": "/my-profile/static/media/ProfilePic.82e9c02df822a7069831.jpg",
+    "static/media/logo_AWS.png": "/my-profile/static/media/logo_AWS.b2a754d9fb1322a03c53.png",
+    "static/media/docker-logo.png": "/my-profile/static/media/docker-logo.2b05426e6eba68ca92d2.png",
+    "static/media/Java-logo.jpg": "/my-profile/static/media/Java-logo.1022d42821d09b71be73.jpg",
+    "static/media/kvs-logo.png": "/my-profile/static/media/kvs-logo.acf5072954c25215d5dc.png",
+    "static/media/mySQL-logo.jpg": "/my-profile/static/media/mySQL-logo.3f64cf077f0298d82159.jpg",
+    "static/media/JS-logo.png": "/my-profile/static/media/JS-logo.75220e22aacfddc29275.png",
+    "static/media/jenkins-logo.png": "/my-profile/static/media/jenkins-logo.393280111dd111d3c05f.png",
+    "static/media/Trello_logo.svg.png": "/my-profile/static/media/Trello_logo.svg.820d202696a7d10b73c4.png",
+    "static/media/say-hello.png": "/my-profile/static/media/say-hello.421426156e43e1ca9d67.png",
+    "static/media/spring-logo.svg": "/my-profile/static/media/spring-logo.5e950eb412f3de03ef03279d74b24a04.svg",
+    "index.html": "/my-profile/index.html",
+    "static/media/react-logo.svg": "/my-profile/static/media/react-logo.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.a50331fc.css.map": "/my-profile/static/css/main.a50331fc.css.map",
+    "main.963978b7.js.map": "/my-profile/static/js/main.963978b7.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-profile/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a50331fc.css",
+    "static/js/main.963978b7.js"
+  ]
+}
